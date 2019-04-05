@@ -11,11 +11,16 @@ def prime?(n)
       else
         next
       end
+      if perfect_divisor_total > 2
+        return false
+      else 
+        return true
+      end  
     end
-    if rem > 2
-      return false
-    else
-      return true
-    end
+    #if rem > 2
+     # return false
+    #else
+      #return true
+    #end
   end
 end 
