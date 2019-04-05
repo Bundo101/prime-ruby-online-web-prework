@@ -1,4 +1,4 @@
-def prime?(n)
+ def prime?(n)
   if n <= 1
     return false
   else
@@ -11,16 +11,11 @@ def prime?(n)
       else
         next
       end
-      if perfect_divisor_total > 2
+    end
+    if perfect_divisor_total > 2
         return false
       else 
         return true
-      end  
     end
-    #if rem > 2
-     # return false
-    #else
-      #return true
-    #end
   end
 end 
