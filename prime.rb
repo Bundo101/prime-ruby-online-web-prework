@@ -1,5 +1,5 @@
 def prime?(n)
-  if n < 1
+  if n <= 1
     return false
   else
     new_array = (1..n).to_a
