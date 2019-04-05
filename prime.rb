@@ -5,7 +5,7 @@ def prime?(n)
     new_array = (1..n).to_a
     perfect_divisor_total = 0
     for number in new_array
-      rem = n%number
+      rem = n % number
       if rem == 0
         perfect_divisor_total += 1
       else
